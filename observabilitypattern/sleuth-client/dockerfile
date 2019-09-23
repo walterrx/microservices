@@ -1,0 +1,4 @@
+FROM adoptopenjdk/openjdk10:latest
+ADD /target/sleuth-client-0.0.1-SNAPSHOT.jar sleuth-client-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/sleuth-client-0.0.1-SNAPSHOT.jar"]
+

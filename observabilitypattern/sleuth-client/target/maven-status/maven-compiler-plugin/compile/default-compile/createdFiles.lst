@@ -1,0 +1,3 @@
+br/com/walterrx/sleuthclient/configuration/RestTemplateConfiguration.class
+br/com/walterrx/sleuthclient/restservice/SleuthAPI.class
+br/com/walterrx/sleuthclient/Server.class
